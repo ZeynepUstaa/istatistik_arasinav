@@ -1,0 +1,65 @@
+---
+title: "EĞİTİM HARCAMALARI VE İSTİHDAMA KATKILARI"
+author: 
+  - Zeynep USTA[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 20080305, [Github Repo](https://github.com/ZeynepUstaa/istatistik_arasinav.git)
+
+
+# Giriş
+İnsanlığın öğrendiklerini sonraki nesillere aktarma isteğiyle oluşan eğitim kavramı, insanlık tarihi kadar eskidir. Eğitim kavramı, değişiklik yaratma süreci olarak tanımlanır. Bireyin davranışlarında, düşünce yapısında ve becerilerinde değişiklik yaratma sürecidir. Eğitim, sadece birey ile sınırlı bir fayda sağlamaz aynı zamanda toplumun geneline de fayda sağlar. Bir bakıma bireyi yetiştirme faaliyetidir ve nesiller boyunca devamı olan bu yetiştirmenin de devlet ve bireyler tarafından karşılanan bir maliyeti vardır, bu maliyetler ‘eğitim harcamaları’ olarak adlandırılır. 
+
+Eğitim, tüm ülkelerin ekonomik büyüme düzeyi ve hızı açısından önemli bir yere sahiptir. Tüm ekonomik süreçlerin temelinde insan vardı. İktisat literatüründe bu insan faktörüne ‘beşeri sermaye’ adı verilir, bu kavram kişinin ya da toplumun sahip olduğu bilgi, beceri, yetenekler, sağlık durumu, toplumsal ilişkilerdeki yeri ve eğitim düzeyi gibi kavramların tümünü ifade etmek için kullanılmaktadır. Hizmet ve üretim sistemleri karmaşık hale geldikçe çalışanlarda yüksem öğrenim seviyesi aranmaktadır. Günümüzde kol gücünün üretimdeki rolü büyük ölçüde azalırken, beyin gücü ve makinelerin rolü artmaktadır. Üretimdeki bu yapısal değişiklikler, insanların üretim sürecindeki fiziksel rolünü azaltırken, zihinsel üretimi için zaman kazandırır. Ülkeler en azından ekonomik kalkınmalarını ve gelişmelerini devam ettirebilmeleri veya hızlandırabilmeleri için insan kaynaklarını geliştirmek zorunda kalmışlardır. İnsan kaynaklarını geliştirmek amacıyla yapılan eğitim harcamaları, aynı zamanda bir yatırım olarak kabul edilmekte ve bu yatırımlar sayesinde sosyal eşitsizlikler azaltılabilmektedir (OECD 1998: 69). 
+
+Beşeri sermayenin nitelikleri ve becerileri ekonomik süreçlerin sonuçlarını ve dolayısıyla ekonomik büyüme ve kalkınma üzerinde doğrudan etkiye sahiptir. Eğitimin; işgücünün beceri ve üretkenlik kapasitesini geliştirdiği, bu yolla da milli gelirin artmasına katkıda bulunduğu ve hatta geçmişte yaşanan ABD’deki hızlı büyüme oranının önemli bir bölümünün eğitime yapılan yatırımlardan kaynaklandığı görüşü klasik iktisatçılarca da desteklenmiştir. Bireyler tarafından edinilen becerilerin düzeyi ne kadar yüksek olursa, bireylerin refah düzeyi o kadar sürdürülebilir ve ekonomik büyüme o kadar sağlıklı olur. 
+
+## Çalışmanın Amacı
+Bu araştırmada, içinde Türkiye’nin de bulunduğu OECD (Ekonomik İş Birliği ve Kalkınma Teşkilatı) ülkelerindeki eğitim harcamaları ve eğitimin istihdama katkılarını göstermek amaçlanmıştır. Araştırmanın analizinde, OECD (1995-2019) verilerinden yararlanılacaktır. Verilerdeki eğitim harcamaları; okullar, üniversiteler ve diğer kamu ve özel eğitim kurumlarına yapılan harcamaları kapsar. Harcama, eğitim kurumları aracılığıyla öğrenciler ve aileler için sağlanan eğitim ve yardımcı hizmetleri içerir. Harcama, öğrenci başına USD cinsinden ve GSYH’nin yüzdesi olarak gösterilir.    
+
+## Literatür 
+Araştırdığım makalelerin sonucunda eğitim harcamalarının GSYH’de önemli bir paya sahip olduğu ülkelerde, ekonomik büyüme ve kalkınmanın sağlıklı ve uzun ömürlü olduğu görülüyor. Günümüzde beşeri sermayenin temel sermayeden daha önemli olduğu anlaşılmaktadır. Beşeri sermayenin kalifiye hale gelmesi de eğitim ile sağlanmaktadır. Okuduğum makalelerin bazılarının kullandığı yöntem ve verileri aşağıda referans vereceğim.  
+
+Taş ve Yenilmez (2007) tarafından yapılan çalışma Eskişehir Osmangazi Üniversitesinde Türkiye’deki eğitimin kalkınma üzerindeki rolü ve eğitim yatırımlarının geri dönüş oranı incelenmiş olup 2002 yılı verileri kullanılmış ve fayda-maliyet analizinden yararlanılmıştır. 
+
+Akın Mart ve Kartal (2021) tarafından yapılan çalışmada Muğla Sıtkı Koçman Üniversitesi Eğitim Fakültesinde Türkiye’deki eğitim harcamalarının incelenmesi ve içinde Türkiye’nin de olduğu diğer OECD ülkelerinin karşılaştırılarak analiz edilmesi amaçlanmıştır. Araştırmanın analizinde TÜİK ve OECD 2019 verilerinden yararlanılmasından dolayı aynı zamanda güncel sayılabilecek bir araştırmadır. Araştırmada eğitim harcamalarının gayrisafi yurtiçi hasıla (GSYH) içindeki oranına da yer verilmiş ve incelenmiştir.  
+
+Karaçor, Güvenek, Ekinci ve Konya tarafından yapılan Selçuk Üniversitesi Ekonomi Bölümünün İngilizce makale çalışmasında, 20. yüzyıldan itibaren klasik iktisat teorisinde yer alan temel üretim faktörlerine eklenen beşeri sermayeye dikkat çekilmiş ve daha yüksek eğitim seviyesiyle artan kazançların OECD ülkelerinde istihdam, büyüme ve refaha olan önemli katkıları panel veri yöntemi kullanılarak analiz edilmiştir. 
+
+Appiah (2017) tarafından Pentecost Üniversitesi Ekonomi bölümünde yapılan çalışmada sadece OECD ülkeleri değil gelişmekte olan ülkelerin eğitim harcamalarının kişi başına düşen milli gelir üzerinde olumlu bir etki yaratıp yaratmadığı incelenmiş ve bunu tahmin etmek için GMM tahmin edicisi kullanılmıştır.  
+
+
+**_Taslakta bu cümleden sonra yer alan hiçbir şey silinmemelidir._**
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
