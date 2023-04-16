@@ -57,7 +57,6 @@ Karaçor, Güvenek, Ekinci ve Konya tarafından yapılan Selçuk Üniversitesi E
 Appiah (2017) tarafından Pentecost Üniversitesi Ekonomi bölümünde yapılan çalışmada sadece OECD ülkeleri değil gelişmekte olan ülkelerin eğitim harcamalarının kişi başına düşen milli gelir üzerinde olumlu bir etki yaratıp yaratmadığı incelenmiş ve bunu tahmin etmek için GMM tahmin edicisi kullanılmıştır.  
 
 
-**_Taslakta bu cümleden sonra yer alan hiçbir şey silinmemelidir._**
 
 \newpage
 # Kaynakça {#references}
